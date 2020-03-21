@@ -31,4 +31,4 @@ pie.series[0].data_points = [pieSlice]
 
 ws.add_chart(pie, "A7")
 wb.save('Top5TransactionsByLoyaltyNumberWithPieChart.xlsx') # .xlsx file cannot be open when we do this
-
+print("Done")
